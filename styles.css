@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.date-selector {
+    margin-top: 10px;
+}
+
+select, input[type="date"] {
+    padding: 5px;
+    margin: 5px;
+}
+
+.file-upload {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#upload-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#upload-btn:hover {
+    background-color: #45a049;
+}
+
+.student-list {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.student-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.student-name {
+    flex-grow: 1;
+}
+
+.attendance-slider {
+    display: flex;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.attendance-option {
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.attendance-option.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
